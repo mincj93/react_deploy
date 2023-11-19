@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://mincj93.github.io/react_deploy",
-  "_설명": "homepage 라는 요소는 github 사이트 배포할 때 하는 설정임. http://사용자이름.github.io/레포지토리이름",
+  "_설명1": "homepage 라는 요소는 github 사이트 배포할 때 하는 설정임. http://사용자이름.github.io/레포지토리이름",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "_설명2": "predeploy 는 배포 전 실행할 명령어, deploy는 배포 시킬 때 실행할 명령어인 것 같다. 그냥 해석해보면 그러니까. "
   },
   "eslintConfig": {
     "extends": [
